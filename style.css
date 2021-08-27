@@ -52,7 +52,7 @@ p {
 .intro-image,
 .intro-description,
 .info-section > h1 {
-    padding: 40px 70px;
+    padding: 40px;
     margin: 0;
 }
 .info-section {
@@ -458,7 +458,7 @@ p {
         padding: 55px;
     }
     .intro-description {
-        width: 66% !important;
+        /* width: 66% !important; */
     }
     .intro-description,
     .info-section > h1 {
@@ -469,6 +469,10 @@ p {
     }
     .sub-section {
         padding: 30px;
+    }
+    .mySlides > .sub-section {
+        padding: 30px 30px 0px;
+        min-height: 110px;
     }
     .stats-section {
         background-size: 115%;
@@ -496,17 +500,17 @@ p {
         padding: 30px 45px;
     }
     .slide-img {
-        width: 50%;
+        width: 85%;
     }
-    .slide-text {
+    /* .slide-text {
         height: 150px;
-    }
+    } */
     .glider-dot {
         margin: 20px 10px 0px;
     }
-    .prev-img, .next-img {
+    /* .prev-img, .next-img {
         top: -185px;
-    }
+    } */
     .next-img {
         margin: 0 50px 0 0;
     }
@@ -516,9 +520,9 @@ p {
     .glider::-webkit-scrollbar-thumb {
         background-color : #fff;  
     }
-    .row>* {
+    /* .row>* {
         width: 33.33%;
-    }
+    } */
  }
 
 @media screen and (max-width: 576px) { 

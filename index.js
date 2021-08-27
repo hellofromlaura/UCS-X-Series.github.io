@@ -92,7 +92,7 @@ var glider = new Glider(document.querySelector('.glider'), {
     },
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 576,
         draggable: true,
         rewind: true,
         settings: {
